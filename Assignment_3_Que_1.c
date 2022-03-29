@@ -17,6 +17,7 @@ void *area_circle(void *arg)
 int main()
 {
 	printf("new change for github\n");
+	printf("new change for github 2\n");
 	pthread_t thread1, thread2, thread3;
 	
 	pthread_create(&thread1, NULL, area_sphere, NULL);
