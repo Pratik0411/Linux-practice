@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 float var = 5;
-
 void *area_sphere(void *arg)
 {
 	printf("Area of the sphere = %.2f\n", (var*var*var*(4/3)*(3.14)));
@@ -17,6 +16,7 @@ void *area_circle(void *arg)
 
 int main()
 {
+	printf("new change for github\n");
 	pthread_t thread1, thread2, thread3;
 	
 	pthread_create(&thread1, NULL, area_sphere, NULL);
